@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     var label_fontShow:UILabel!;
     var button_changeFont:UIButton!
     
-    /// 3引号 引出多行字符串
+    /// 一对“”“ 声明多行字符串
     let message = """
         My 30 Days Swift
         似懂非懂撒发奥大所大所大所大所大所大所大所多撒多
