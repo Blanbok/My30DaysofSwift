@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B8EF261F1F3D0800C5DC4D /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84B8EF251F1F3D0800C5DC4D /* emoji zone.mp4 */; };
 		84B9089A1F1EF2C400BCF08B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B908991F1EF2C400BCF08B /* AppDelegate.swift */; };
 		84B9089C1F1EF2C400BCF08B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9089B1F1EF2C400BCF08B /* ViewController.swift */; };
 		84B9089F1F1EF2C400BCF08B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B9089D1F1EF2C400BCF08B /* Main.storyboard */; };
 		84B908A11F1EF2C400BCF08B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B908A01F1EF2C400BCF08B /* Assets.xcassets */; };
 		84B908A41F1EF2C400BCF08B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B908A21F1EF2C400BCF08B /* LaunchScreen.storyboard */; };
-		84B908AC1F1EF3FB00BCF08B /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84B908AB1F1EF3FB00BCF08B /* emoji zone.mp4 */; };
 		84B908AE1F1EF73900BCF08B /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B908AD1F1EF73900BCF08B /* VideoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84B8EF251F1F3D0800C5DC4D /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "emoji zone.mp4"; path = "../../../../../Desktop/emoji zone.mp4"; sourceTree = "<group>"; };
 		84B908961F1EF2C400BCF08B /* MyPlayLocalVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayLocalVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B908991F1EF2C400BCF08B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B9089B1F1EF2C400BCF08B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,7 +25,6 @@
 		84B908A01F1EF2C400BCF08B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B908A31F1EF2C400BCF08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B908A51F1EF2C400BCF08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84B908AB1F1EF3FB00BCF08B /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "emoji zone.mp4"; path = "../../../Downloads/30DaysofSwift-master/Project 03 - PlayLocalVideo/PlayLocalVideo/emoji zone.mp4"; sourceTree = "<group>"; };
 		84B908AD1F1EF73900BCF08B /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +58,6 @@
 		84B908981F1EF2C400BCF08B /* MyPlayLocalVideo */ = {
 			isa = PBXGroup;
 			children = (
-				84B908AB1F1EF3FB00BCF08B /* emoji zone.mp4 */,
 				84B908991F1EF2C400BCF08B /* AppDelegate.swift */,
 				84B9089B1F1EF2C400BCF08B /* ViewController.swift */,
 				84B908AD1F1EF73900BCF08B /* VideoCell.swift */,
@@ -66,6 +65,7 @@
 				84B908A01F1EF2C400BCF08B /* Assets.xcassets */,
 				84B908A21F1EF2C400BCF08B /* LaunchScreen.storyboard */,
 				84B908A51F1EF2C400BCF08B /* Info.plist */,
+				84B8EF251F1F3D0800C5DC4D /* emoji zone.mp4 */,
 			);
 			path = MyPlayLocalVideo;
 			sourceTree = "<group>";
@@ -129,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B908A41F1EF2C400BCF08B /* LaunchScreen.storyboard in Resources */,
-				84B908AC1F1EF3FB00BCF08B /* emoji zone.mp4 in Resources */,
+				84B8EF261F1F3D0800C5DC4D /* emoji zone.mp4 in Resources */,
 				84B908A11F1EF2C400BCF08B /* Assets.xcassets in Resources */,
 				84B9089F1F1EF2C400BCF08B /* Main.storyboard in Resources */,
 			);
@@ -324,6 +324,7 @@
 				84B908AA1F1EF2C400BCF08B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

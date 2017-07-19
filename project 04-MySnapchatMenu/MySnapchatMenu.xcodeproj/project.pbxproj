@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B8EF341F1F432700C5DC4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B8EF331F1F432700C5DC4D /* AppDelegate.swift */; };
+		84B8EF361F1F432800C5DC4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B8EF351F1F432800C5DC4D /* ViewController.swift */; };
+		84B8EF391F1F432800C5DC4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B8EF371F1F432800C5DC4D /* Main.storyboard */; };
+		84B8EF3B1F1F432800C5DC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B8EF3A1F1F432800C5DC4D /* Assets.xcassets */; };
+		84B8EF3E1F1F432800C5DC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B8EF3C1F1F432800C5DC4D /* LaunchScreen.storyboard */; };
+		84B8EF471F1F498E00C5DC4D /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B8EF451F1F498E00C5DC4D /* LeftViewController.swift */; };
+		84B8EF481F1F498E00C5DC4D /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B8EF461F1F498E00C5DC4D /* LeftViewController.xib */; };
+		84B8EF4D1F1F49A900C5DC4D /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B8EF4B1F1F49A900C5DC4D /* RightViewController.swift */; };
+		84B8EF4E1F1F49A900C5DC4D /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B8EF4C1F1F49A900C5DC4D /* RightViewController.xib */; };
+		84B8EF511F1F49B500C5DC4D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B8EF4F1F1F49B500C5DC4D /* CameraViewController.swift */; };
+		84B8EF521F1F49B500C5DC4D /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B8EF501F1F49B500C5DC4D /* CameraViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84B8EF301F1F432700C5DC4D /* MySnapchatMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySnapchatMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B8EF331F1F432700C5DC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84B8EF351F1F432800C5DC4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84B8EF381F1F432800C5DC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B8EF3A1F1F432800C5DC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B8EF3D1F1F432800C5DC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B8EF3F1F1F432800C5DC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B8EF451F1F498E00C5DC4D /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		84B8EF461F1F498E00C5DC4D /* LeftViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		84B8EF4B1F1F49A900C5DC4D /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		84B8EF4C1F1F49A900C5DC4D /* RightViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		84B8EF4F1F1F49B500C5DC4D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		84B8EF501F1F49B500C5DC4D /* CameraViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B8EF2D1F1F432700C5DC4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B8EF271F1F432700C5DC4D = {
+			isa = PBXGroup;
+			children = (
+				84B8EF321F1F432700C5DC4D /* MySnapchatMenu */,
+				84B8EF311F1F432700C5DC4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B8EF311F1F432700C5DC4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B8EF301F1F432700C5DC4D /* MySnapchatMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B8EF321F1F432700C5DC4D /* MySnapchatMenu */ = {
+			isa = PBXGroup;
+			children = (
+				84B8EF331F1F432700C5DC4D /* AppDelegate.swift */,
+				84B8EF351F1F432800C5DC4D /* ViewController.swift */,
+				84B8EF451F1F498E00C5DC4D /* LeftViewController.swift */,
+				84B8EF461F1F498E00C5DC4D /* LeftViewController.xib */,
+				84B8EF4B1F1F49A900C5DC4D /* RightViewController.swift */,
+				84B8EF4C1F1F49A900C5DC4D /* RightViewController.xib */,
+				84B8EF4F1F1F49B500C5DC4D /* CameraViewController.swift */,
+				84B8EF501F1F49B500C5DC4D /* CameraViewController.xib */,
+				84B8EF371F1F432800C5DC4D /* Main.storyboard */,
+				84B8EF3A1F1F432800C5DC4D /* Assets.xcassets */,
+				84B8EF3C1F1F432800C5DC4D /* LaunchScreen.storyboard */,
+				84B8EF3F1F1F432800C5DC4D /* Info.plist */,
+			);
+			path = MySnapchatMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B8EF2F1F1F432700C5DC4D /* MySnapchatMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B8EF421F1F432800C5DC4D /* Build configuration list for PBXNativeTarget "MySnapchatMenu" */;
+			buildPhases = (
+				84B8EF2C1F1F432700C5DC4D /* Sources */,
+				84B8EF2D1F1F432700C5DC4D /* Frameworks */,
+				84B8EF2E1F1F432700C5DC4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySnapchatMenu;
+			productName = MySnapchatMenu;
+			productReference = 84B8EF301F1F432700C5DC4D /* MySnapchatMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B8EF281F1F432700C5DC4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = juyuanGroup;
+				TargetAttributes = {
+					84B8EF2F1F1F432700C5DC4D = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = 84B8EF2B1F1F432700C5DC4D /* Build configuration list for PBXProject "MySnapchatMenu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B8EF271F1F432700C5DC4D;
+			productRefGroup = 84B8EF311F1F432700C5DC4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B8EF2F1F1F432700C5DC4D /* MySnapchatMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B8EF2E1F1F432700C5DC4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B8EF3E1F1F432800C5DC4D /* LaunchScreen.storyboard in Resources */,
+				84B8EF4E1F1F49A900C5DC4D /* RightViewController.xib in Resources */,
+				84B8EF481F1F498E00C5DC4D /* LeftViewController.xib in Resources */,
+				84B8EF521F1F49B500C5DC4D /* CameraViewController.xib in Resources */,
+				84B8EF3B1F1F432800C5DC4D /* Assets.xcassets in Resources */,
+				84B8EF391F1F432800C5DC4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B8EF2C1F1F432700C5DC4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B8EF471F1F498E00C5DC4D /* LeftViewController.swift in Sources */,
+				84B8EF511F1F49B500C5DC4D /* CameraViewController.swift in Sources */,
+				84B8EF4D1F1F49A900C5DC4D /* RightViewController.swift in Sources */,
+				84B8EF361F1F432800C5DC4D /* ViewController.swift in Sources */,
+				84B8EF341F1F432700C5DC4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84B8EF371F1F432800C5DC4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B8EF381F1F432800C5DC4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B8EF3C1F1F432800C5DC4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B8EF3D1F1F432800C5DC4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B8EF401F1F432800C5DC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B8EF411F1F432800C5DC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B8EF431F1F432800C5DC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GWCP73NNJ9;
+				INFOPLIST_FILE = MySnapchatMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Blanbok.MySnapchatMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B8EF441F1F432800C5DC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GWCP73NNJ9;
+				INFOPLIST_FILE = MySnapchatMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Blanbok.MySnapchatMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B8EF2B1F1F432700C5DC4D /* Build configuration list for PBXProject "MySnapchatMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B8EF401F1F432800C5DC4D /* Debug */,
+				84B8EF411F1F432800C5DC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B8EF421F1F432800C5DC4D /* Build configuration list for PBXNativeTarget "MySnapchatMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B8EF431F1F432800C5DC4D /* Debug */,
+				84B8EF441F1F432800C5DC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B8EF281F1F432700C5DC4D /* Project object */;
+}

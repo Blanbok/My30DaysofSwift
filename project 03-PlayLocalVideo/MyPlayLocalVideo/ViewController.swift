@@ -29,15 +29,32 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         subViewAdd()
+        
+        
+        if #available(iOS 11.0, *) {
+            self.videoTableView.contentInsetAdjustmentBehavior = .never
+        } else {
+            automaticallyAdjustsScrollViewInsets = false;
+        };
+        
+
+        
+        
     }
 
+    override var preferredStatusBarStyle: UIStatusBarStyle{
+        return .lightContent
+    }
+    
     func subViewAdd() {
         theTableViewAdd()
     }
     
     //MARK:subView
     func theTableViewAdd() {
+
         self.videoTableView.frame = self.view.bounds
+        self.videoTableView.backgroundColor = UIColor.red
         self.videoTableView.showsVerticalScrollIndicator = false
         self.videoTableView.delegate = self
         self.videoTableView.dataSource = self
@@ -68,9 +85,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         return 220
     }
 
+
+    
     func playVideoWithUrl(url: String!) {
-        let path = Bundle.main.path(forResource: "emoji zone", ofType: "mp4")
-        playViewController.player = AVPlayer.init(url: NSURL.fileURL(withPath: path!))
+        
+        let path:String! = Bundle.main.path(forResource: "emoji zone", ofType: "mp4")
+        let playerView:AVPlayer = AVPlayer.init(url: NSURL.fileURL(withPath: path))
+        
+        playViewController.player = playerView
         
         self.present(playViewController, animated: true) {
             self.playViewController.player?.play()
