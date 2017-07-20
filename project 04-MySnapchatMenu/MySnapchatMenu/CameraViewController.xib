@@ -11,8 +11,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController" customModule="MySnapchatMenu" customModuleProvider="target">
             <connections>
-                <outlet property="TempImageView" destination="NU2-ey-jAc" id="MSM-Gp-6tH"/>
-                <outlet property="camera_View" destination="Wo3-pU-jaK" id="drP-cW-VUk"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,26 +18,7 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <subviews>
-                <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wo3-pU-jaK">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </view>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NU2-ey-jAc">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                </imageView>
-            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Wo3-pU-jaK" secondAttribute="bottom" id="5GB-kL-gvZ"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="NU2-ey-jAc" secondAttribute="bottom" id="6gV-HH-gGn"/>
-                <constraint firstItem="NU2-ey-jAc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GOd-dQ-Rb7"/>
-                <constraint firstItem="Wo3-pU-jaK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="RMe-ZL-Tbi"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Wo3-pU-jaK" secondAttribute="trailing" id="cpx-L5-hSu"/>
-                <constraint firstItem="NU2-ey-jAc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="r6b-LI-aCp"/>
-                <constraint firstItem="Wo3-pU-jaK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="upW-84-vvt"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NU2-ey-jAc" secondAttribute="trailing" id="yML-DL-Fbc"/>
-            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>
