@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="F4Z-5E-4dy">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="SUs-ir-Mzg">
+            <objects>
+                <navigationController id="F4Z-5E-4dy" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="eNY-ub-7df">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="w2L-MZ-nNV" kind="relationship" relationship="rootViewController" id="DeM-w8-goW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4xi-mR-dKZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="185" y="345"/>
+        </scene>
+        <!--custom Font-->
+        <scene sceneID="ba5-NI-D5u">
+            <objects>
+                <viewController id="w2L-MZ-nNV" customClass="ViewController" customModule="MyCustomFont" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8jn-In-N3G"/>
+                        <viewControllerLayoutGuide type="bottom" id="uNZ-dn-g3X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aGB-xw-JhL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yH6-Vf-1VV">
+                                <rect key="frame" x="0.0" y="126" width="375" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="h0D-53-Y3K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iy2-8j-fxM">
+                                <rect key="frame" x="142.5" y="517" width="90" height="90"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="mUi-kM-inO"/>
+                                    <constraint firstAttribute="width" constant="90" id="pFk-xH-tL0"/>
+                                </constraints>
+                                <state key="normal" title="change Font">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="45"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="fontChangeButtonDidTouch:" destination="w2L-MZ-nNV" eventType="touchUpInside" id="MLT-0k-Hh0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="uNZ-dn-g3X" firstAttribute="top" secondItem="iy2-8j-fxM" secondAttribute="bottom" constant="60" id="LV8-98-nnF"/>
+                            <constraint firstItem="yH6-Vf-1VV" firstAttribute="top" secondItem="8jn-In-N3G" secondAttribute="bottom" constant="62" id="WL1-57-7MU"/>
+                            <constraint firstItem="iy2-8j-fxM" firstAttribute="centerX" secondItem="aGB-xw-JhL" secondAttribute="centerX" id="ZdQ-mS-TgQ"/>
+                            <constraint firstAttribute="trailing" secondItem="yH6-Vf-1VV" secondAttribute="trailing" id="lrE-OB-ac3"/>
+                            <constraint firstItem="yH6-Vf-1VV" firstAttribute="leading" secondItem="aGB-xw-JhL" secondAttribute="leading" id="uof-hE-xAp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="custom Font" id="pNM-hi-Q7N"/>
+                    <connections>
+                        <outlet property="label_show" destination="yH6-Vf-1VV" id="0fS-sl-X4d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p0K-BW-A8l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="864.79999999999995" y="344.97751124437787"/>
+        </scene>
+    </scenes>
+</document>
