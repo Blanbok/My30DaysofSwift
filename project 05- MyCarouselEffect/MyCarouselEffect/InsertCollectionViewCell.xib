@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="YES" id="gTV-IL-0wX" customClass="InsertCollectionViewCell" customModule="MyCarouselEffect" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="226" height="213"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="226" height="213"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="stp-8R-Oem">
+                        <rect key="frame" x="0.0" y="0.0" width="226" height="213"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKI-Cd-UXD">
+                        <rect key="frame" x="92" y="182" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="stp-8R-Oem" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6WA-0f-x7R"/>
+                <constraint firstAttribute="trailing" secondItem="stp-8R-Oem" secondAttribute="trailing" id="DqK-90-4VH"/>
+                <constraint firstAttribute="bottom" secondItem="eKI-Cd-UXD" secondAttribute="bottom" constant="10" id="Sdr-dk-j7K"/>
+                <constraint firstAttribute="bottom" secondItem="stp-8R-Oem" secondAttribute="bottom" id="U63-rs-AuZ"/>
+                <constraint firstItem="stp-8R-Oem" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gwe-Gg-Wyr"/>
+                <constraint firstItem="eKI-Cd-UXD" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="yuj-7q-Jte"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="226" height="213"/>
+            <connections>
+                <outlet property="imageView_head" destination="stp-8R-Oem" id="OnR-sF-IDq"/>
+                <outlet property="label_title" destination="eKI-Cd-UXD" id="rx6-TA-Sv3"/>
+            </connections>
+            <point key="canvasLocation" x="113" y="-29.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
